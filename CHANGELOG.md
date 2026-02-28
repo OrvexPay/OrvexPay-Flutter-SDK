@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.0] - 2026-03-01
+
+### Added
+- Added `priceAmountInUsd` field to the `Invoice` model for better price tracking.
+- Minor UI improvements in the payment modal.
+
 ## [0.0.1] - 2026-02-09
 
 ### Added
