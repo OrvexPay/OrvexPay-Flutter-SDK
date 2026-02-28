@@ -1,6 +1,6 @@
 name: orvex_pay
 description: Official Flutter SDK for OrvexPay. Integrate crypto payments into your Flutter apps with a native, secure, and customizable modal.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/OrvexPay/OrvexPay-Flutter-SDK
 repository: https://github.com/OrvexPay/OrvexPay-Flutter-SDK
 issue_tracker: https://github.com/OrvexPay/OrvexPay-Flutter-SDK/issues

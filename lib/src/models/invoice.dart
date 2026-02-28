@@ -15,6 +15,7 @@ class Invoice {
   final String? projectName;
   final bool isDonation;
   final double? priceAmountInUsd;
+  final double? amountReceived;
 
   Invoice({
     required this.id,
@@ -33,6 +34,7 @@ class Invoice {
     this.projectName,
     required this.isDonation,
     this.priceAmountInUsd,
+    this.amountReceived,
   });
 
   factory Invoice.fromJson(Map<String, dynamic> json) {
@@ -55,6 +57,9 @@ class Invoice {
       priceAmountInUsd: json['priceAmountInUsd'] != null
           ? (json['priceAmountInUsd'] as num).toDouble()
           : null,
+      amountReceived: json['amountReceived'] != null
+          ? (json['amountReceived'] as num).toDouble()
+          : null,
     );
   }
 
@@ -76,6 +81,7 @@ class Invoice {
       'projectName': projectName,
       'isDonation': isDonation,
       'priceAmountInUsd': priceAmountInUsd,
+      'amountReceived': amountReceived,
     };
   }
 }
